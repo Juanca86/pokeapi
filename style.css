@@ -1,0 +1,85 @@
+body {
+    background-image: url(/assets/51dfe4359de09.webp);
+    margin: 0;
+    font-family: 'Changa', sans-serif;
+    color: white;
+    
+  }
+  header {
+    margin-bottom: 50px;
+    padding: 50px;
+  }
+  header input{
+    display: flex;
+    text-align: center;
+    margin-left: 45%;
+    padding: 5px;
+  }
+  header img {
+    width: 100%;
+    height: auto;
+  }
+  .container {
+    padding: 40px;
+    margin: 0 auto;
+  }
+  h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 54px;
+  }
+  .card {
+    list-style: none;
+    padding: 40px;
+    Background-color: transparent;
+    /* background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%); */
+    color: rgb(255, 255, 0);
+    text-align: center;
+  }
+  .card p{
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  .card img{
+    width: 100%;
+    
+  }
+  .card-title {
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 0;
+    margin-top: 0;
+    /* color: rgb(255, 255, 0); */
+  }
+  .card-subtitle {
+    font-weight: lighter;
+    color: yellow;
+    margin-top: 0;
+  }
+  .card-image {
+    height: 180px;
+  }
+  #pokedex {
+    padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 20px;
+  }
+  .card:hover {
+    animation: bounce 0.5s linear;
+  }
+  @keyframes bounce {
+    20% {
+      transform: translateY(-6px);
+    }
+    40% {
+      transform: translateY(0px);
+    }
+    60% {
+      transform: translateY(-2px);
+    }
+    80% {
+      transform: translateY(-0px);
+    }
+  }
